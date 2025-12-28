@@ -42,6 +42,7 @@ const config = {
     facebook: "https://www.facebook.com/hoagduc27/",
     github: "https://github.com/Hoagduc27",
     tiktok:"https://www.tiktok.com/@hoagthieu",
+    soundcloud:"https://soundcloud.com/hoagduc27",
   },
 };
 export { config };

@@ -3,7 +3,7 @@
 import { useInView } from "framer-motion";
 import React, { useRef } from "react";
 import { Button } from "../ui/button";
-import { SiGithub, SiInstagram, SiLinkedin, SiTiktok, SiX } from "react-icons/si";
+import { SiGithub, SiInstagram, SiLinkedin, SiSoundcloud, SiTiktok, SiX } from "react-icons/si";
 import { config } from "@/data/config";
 import Link from "next/link";
 
@@ -32,6 +32,11 @@ const BUTTONS = [
     name: "TikTok",
     href: config.social.tiktok,
     icon: <SiTiktok size={"24"} color={"#fff"} />,
+  },
+  {
+    name: "Soundcloud",
+    href: config.social.soundcloud,
+    icon: <SiSoundcloud size={"24"} color={"#fff"} />,
   },
 ];
 
