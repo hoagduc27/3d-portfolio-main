@@ -36,11 +36,12 @@ const config = {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    twitter: "https://x.com/nothotchaddi",
+    twitter: "https://x.com/hoagduc27",
     linkedin: "https://www.linkedin.com/in/Hoagduc27/",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
+    instagram: "https://www.instagram.com/hoagduc27",
+    facebook: "https://www.facebook.com/hoagduc27/",
     github: "https://github.com/Hoagduc27",
+    tiktok:"https://www.tiktok.com/@hoagthieu",
   },
 };
 export { config };
