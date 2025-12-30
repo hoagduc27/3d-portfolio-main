@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   description: config.description.long,
   keywords: config.keywords,
   authors: [{ name: config.author }],
+  icons: {
+    icon: '/favicon.png', // Hoặc đường dẫn đến file icon của bạn
+    // icon: '/assets/logo-dark.svg', // Ví dụ dùng SVG
+    // apple: '/apple-icon.png', // Icon cho Apple devices
+  },
   openGraph: {
     title: config.title,
     description: config.description.short,
