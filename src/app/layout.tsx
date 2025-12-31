@@ -21,6 +21,8 @@ export const metadata: Metadata = {
   description: config.description.long,
   keywords: config.keywords,
   authors: [{ name: config.author }],
+  // Next.js App Router tự động xử lý favicon.ico từ src/app/
+  // Không cần cấu hình icons nếu dùng favicon.ico trong src/app/
   openGraph: {
     title: config.title,
     description: config.description.short,
